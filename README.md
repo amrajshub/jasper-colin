@@ -22,8 +22,7 @@ Logging (to file and Graylog), monitoring, and pre-commit for code consistency.
 
 
 📊 Application Architecture
-1. Database Design
-Database: PostgreSQL
+![Diagram:](jasper-colin/app_arch.png)
 
 
 Tasks Table:
