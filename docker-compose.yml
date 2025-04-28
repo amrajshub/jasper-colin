@@ -1,0 +1,107 @@
+version: "3.9"
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: web_image
+    restart: always
+    volumes:
+      - .:/app/
+    command: >
+      sh -c "uvicorn main:app --host 0.0.0.0 --port 8000 --reload --reload-dir /app"
+    ports:
+      - "8000:8000"
+    container_name: web
+    depends_on:
+      - db
+      - keycloak_db
+      - keycloak
+      # - graylog
+    stdin_open: true
+    tty: true
+
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: ${DATABASE_PASSWORD}
+      POSTGRES_DB: ${DATABASE_NAME}
+    ports:
+      - ${DATABASE_PORT}:5432
+    container_name: db
+    volumes:
+      - postgres_data_jc:/var/lib/postgresql/data
+
+  redis:
+    image: redis:latest
+    restart: always
+    expose:
+      - ${REDIS_PORT}
+    ports:
+      - ${REDIS_PORT}:6379
+    container_name: redis
+
+  keycloak_db:
+    image: postgres
+    container_name: keycloak_db
+    restart: always
+    environment:
+      POSTGRES_DB: keycloak
+      POSTGRES_USER: keycloak
+      POSTGRES_PASSWORD: keycloak
+    volumes:
+      - keycloak_data:/var/lib/postgresql/data
+
+  keycloak:
+    image: quay.io/keycloak/keycloak:24.0.3
+    container_name: keycloak
+    command: start-dev
+    depends_on:
+      - keycloak_db
+    environment:
+      KC_DB: postgres
+      KC_DB_URL: jdbc:postgresql://keycloak_db:5432/keycloak
+      KC_DB_USERNAME: keycloak
+      KC_DB_PASSWORD: keycloak
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: admin
+    ports:
+      - "8080:8080"
+
+  # graylog:
+  #   image: graylog/graylog:5.1
+  #   container_name: graylog
+  #   environment:
+  #     GRAYLOG_HTTP_EXTERNAL_URI: "http://127.0.0.1:9000/"
+  #     GRAYLOG_ROOT_PASSWORD_SHA2: graylog_pass
+  #     GRAYLOG_PASSWORD_SECRET: ThisIsASecurePasswordSecretWith32Chars
+  #   ports:
+  #     - "9000:9000"
+  #     - "12201:12201"
+  #   depends_on:
+  #     - mongodb
+  #     - elasticsearch
+
+  # mongodb:
+  #   image: mongo:4.4
+  #   container_name: mongodb
+  #   restart: always
+  #   volumes:
+  #     - mongodb_data:/data/db
+
+  # elasticsearch:
+  #   image: docker.elastic.co/elasticsearch/elasticsearch:7.10.0
+  #   container_name: elasticsearch
+  #   environment:
+  #     - discovery.type=single-node
+  #   restart: always
+  #   volumes:
+  #     - elasticsearch_data:/usr/share/elasticsearch/data
+
+volumes:
+  postgres_data_jc:
+  keycloak_data:
+  # mongodb_data:
+  # elasticsearch_data:

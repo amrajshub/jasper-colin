@@ -1,0 +1,104 @@
+2025-04-24 23:20:14,061 - app - ERROR - 401: Invalid or expired token
+2025-04-24 23:20:16,361 - app - ERROR - 401: Invalid or expired token
+2025-04-24 23:20:25,669 - app - INFO - Call logged for the request: status=pending&start_date=2025-01-01&end_date=2026-01-01 and response: <starlette.middleware.base._StreamingResponse object at 0xffff9469ec10>
+2025-04-24 23:55:31,067 - app - ERROR - Object of type date is not JSON serializable
+2025-04-24 23:55:58,405 - app - ERROR - Object of type date is not JSON serializable
+2025-04-24 23:55:59,229 - app - ERROR - Object of type date is not JSON serializable
+2025-04-24 23:56:24,058 - app - ERROR - Object of type date is not JSON serializable
+2025-04-24 23:59:52,563 - app - ERROR - Object of type date is not JSON serializable
+2025-04-25 00:02:20,656 - app - ERROR - Object of type date is not JSON serializable
+2025-04-25 00:02:32,358 - app - ERROR - 401: Invalid or expired token
+2025-04-25 00:04:23,328 - app - ERROR - Object of type date is not JSON serializable
+2025-04-25 00:05:06,640 - app - ERROR -
+2025-04-25 00:05:33,428 - app - ERROR - 'str' object has no attribute '__dict__'
+2025-04-25 00:06:39,612 - app - ERROR - cannot unpack non-iterable ellipsis object
+2025-04-25 00:06:56,030 - app - ERROR - 'str' object has no attribute '__dict__'
+2025-04-25 00:07:22,677 - app - ERROR - 'str' object has no attribute '__dict__'
+2025-04-25 00:07:49,718 - app - ERROR - 'str' object has no attribute '__dict__'
+2025-04-25 00:08:07,349 - app - ERROR - 'str' object has no attribute '__dict__'
+2025-04-25 00:08:32,135 - app - ERROR - 'str' object has no attribute '__dict__'
+2025-04-25 00:09:16,955 - app - INFO - Call logged for the request: status=pending&start_date=2025-01-07&end_date=2026-01-01 and response: <starlette.middleware.base._StreamingResponse object at 0xffffaa306220>
+2025-04-25 00:09:37,556 - app - INFO - Call logged for the request: status=pending&start_date=2025-01-07&end_date=2026-01-01 and response: <starlette.middleware.base._StreamingResponse object at 0xffffa8315ee0>
+2025-04-25 00:11:58,886 - app - INFO - Call logged for the request: status=pending&start_date=2025-01-07&end_date=2026-01-01 and response: <starlette.middleware.base._StreamingResponse object at 0xffffa59c6280>
+2025-04-25 00:12:03,105 - app - ERROR - cannot unpack non-iterable ellipsis object
+2025-04-25 00:12:59,796 - app - ERROR - cannot unpack non-iterable ellipsis object
+2025-04-25 00:14:21,397 - app - INFO - Call logged for the request: status=pending&start_date=2025-01-07&end_date=2025-12-31 and response: <starlette.middleware.base._StreamingResponse object at 0xffffa8dc4ac0>
+2025-04-25 00:16:59,655 - app - ERROR - cannot unpack non-iterable ellipsis object
+2025-04-25 00:17:05,693 - app - ERROR - 401: Invalid or expired token
+2025-04-25 00:17:21,161 - app - INFO - Call logged for the request: status=pending&start_date=2025-01-07&end_date=2025-12-30 and response: <starlette.middleware.base._StreamingResponse object at 0xffffa4423670>
+2025-04-25 00:18:01,311 - app - ERROR -
+2025-04-25 00:18:14,172 - app - INFO - Call logged for the request: status=pending&start_date=2025-01-07&end_date=2025-12-29 and response: <starlette.middleware.base._StreamingResponse object at 0xffff982b73a0>
+2025-04-25 00:18:16,714 - app - ERROR - 'dict' object has no attribute '__dict__'
+2025-04-25 00:19:33,695 - app - INFO - Call logged for the request: status=pending&start_date=2025-01-07&end_date=2025-12-28 and response: <starlette.middleware.base._StreamingResponse object at 0xffffa0ef65b0>
+2025-04-25 00:19:44,336 - app - ERROR - 'dict' object has no attribute '__dict__'
+2025-04-25 00:20:47,521 - app - INFO - Call logged for the request: status=pending&start_date=2025-01-07&end_date=2025-12-27 and response: <starlette.middleware.base._StreamingResponse object at 0xffff87136220>
+2025-04-25 00:21:13,912 - app - ERROR - 'dict' object has no attribute '__dict__'
+2025-04-25 00:23:19,770 - app - INFO - Call logged for the request: status=pending&start_date=2025-01-07&end_date=2025-12-27 and response: <starlette.middleware.base._StreamingResponse object at 0xffffa71a7220>
+2025-04-25 00:24:11,988 - app - ERROR - 401: Invalid or expired token
+2025-04-25 00:24:19,800 - app - INFO - Call logged for the request: status=pending&start_date=2025-01-07&end_date=2025-12-27 and response: <starlette.middleware.base._StreamingResponse object at 0xffffb4c4f6a0>
+2025-04-25 00:24:20,661 - app - INFO - Call logged for the request: status=pending&start_date=2025-01-07&end_date=2025-12-27 and response: <starlette.middleware.base._StreamingResponse object at 0xffffb4c4faf0>
+2025-04-25 00:24:21,275 - app - INFO - Call logged for the request: status=pending&start_date=2025-01-07&end_date=2025-12-27 and response: <starlette.middleware.base._StreamingResponse object at 0xffffb4c5e6a0>
+2025-04-25 00:24:21,627 - app - INFO - Call logged for the request: status=pending&start_date=2025-01-07&end_date=2025-12-27 and response: <starlette.middleware.base._StreamingResponse object at 0xffffb4c5e220>
+2025-04-25 00:24:31,301 - app - ERROR - Expecting value: line 1 column 1 (char 0)
+2025-04-25 00:25:22,289 - app - ERROR - Expecting value: line 1 column 1 (char 0)
+2025-04-25 00:25:45,136 - app - ERROR - Expecting value: line 1 column 1 (char 0)
+2025-04-25 00:25:47,267 - app - ERROR - Expecting value: line 1 column 1 (char 0)
+2025-04-25 00:25:55,358 - app - INFO - Call logged for the request: status=pending&start_date=2025-01-07&end_date=2025-12-27 and response: <starlette.middleware.base._StreamingResponse object at 0xffff9d1d7130>
+2025-04-25 00:26:32,539 - app - ERROR - Expecting value: line 1 column 1 (char 0)
+2025-04-25 00:26:33,863 - app - ERROR - Expecting value: line 1 column 1 (char 0)
+2025-04-25 00:27:42,451 - app - ERROR - unhandled_exception_handler:41 - Expecting value: line 1 column 1 (char 0)
+2025-04-25 00:28:30,657 - app - ERROR - unhandled_exception_handler:42 - Expecting value: line 1 column 1 (char 0)
+2025-04-25 00:31:52,289 - app - ERROR - unhandled_exception_handler:42 - Expecting value: line 1 column 1 (char 0)
+2025-04-25 00:32:50,745 - app - ERROR - unhandled_exception_handler:42 - Expecting value: line 1 column 1 (char 0)
+2025-04-25 00:33:36,639 - app - ERROR - unhandled_exception_handler:42 - Expecting value: line 1 column 1 (char 0)
+2025-04-25 00:34:35,387 - app - ERROR - unhandled_exception_handler:42 - 401: Invalid or expired token
+2025-04-25 00:35:04,224 - app - ERROR - unhandled_exception_handler:41 - 401: Invalid or expired token
+2025-04-25 00:35:09,724 - app - INFO - add_keycloak_auth:65 - Call logged for the request: b'' and response: <starlette.middleware.base._StreamingResponse object at 0xffffaec97fd0>
+2025-04-25 00:35:09,789 - app - ERROR - unhandled_exception_handler:41 - 1 validation errors:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': None}
+
+2025-04-25 00:35:46,941 - app - INFO - add_keycloak_auth:65 - Call logged for the request: b'' and response: <starlette.middleware.base._StreamingResponse object at 0xffffaec490a0>
+2025-04-25 00:35:46,972 - app - ERROR - unhandled_exception_handler:41 - 'Task' object has no attribute 'model_dump'
+2025-04-25 00:36:51,698 - app - INFO - add_keycloak_auth:65 - Call logged for the request: b'' and response: <starlette.middleware.base._StreamingResponse object at 0xffff975e7280>
+2025-04-25 00:36:51,745 - app - ERROR - unhandled_exception_handler:41 - __init__() takes 1 positional argument but 2 were given
+2025-04-25 00:37:14,050 - app - INFO - add_keycloak_auth:65 - Call logged for the request: b'' and response: <starlette.middleware.base._StreamingResponse object at 0xffff97f29130>
+2025-04-25 00:37:14,095 - app - INFO - add_keycloak_auth:65 - Call logged for the request: b'' and response: <starlette.middleware.base._StreamingResponse object at 0xffff97f16e20>
+2025-04-25 00:37:15,877 - app - INFO - add_keycloak_auth:65 - Call logged for the request: b'' and response: <starlette.middleware.base._StreamingResponse object at 0xffff97ebfb50>
+2025-04-25 00:37:15,889 - app - ERROR - unhandled_exception_handler:41 - type object 'Task' has no attribute 'model_validate'
+2025-04-25 00:38:02,018 - app - INFO - add_keycloak_auth:65 - Call logged for the request: b'' and response: <starlette.middleware.base._StreamingResponse object at 0xffff89e17280>
+2025-04-25 00:38:02,027 - app - ERROR - unhandled_exception_handler:41 - the JSON object must be str, bytes or bytearray, not dict
+2025-04-25 00:38:28,892 - app - INFO - add_keycloak_auth:65 - Call logged for the request: b'' and response: <starlette.middleware.base._StreamingResponse object at 0xffff89db2af0>
+2025-04-25 00:38:28,904 - app - ERROR - unhandled_exception_handler:41 - the JSON object must be str, bytes or bytearray, not dict
+2025-04-25 00:38:36,712 - app - INFO - add_keycloak_auth:65 - Call logged for the request: b'' and response: <starlette.middleware.base._StreamingResponse object at 0xffffa26565b0>
+2025-04-25 00:39:37,229 - app - ERROR - unhandled_exception_handler:41 - the JSON object must be str, bytes or bytearray, not dict
+2025-04-25 00:39:42,629 - app - INFO - add_keycloak_auth:65 - Call logged for the request: b'' and response: <starlette.middleware.base._StreamingResponse object at 0xffffa3da7df0>
+2025-04-25 00:39:42,636 - app - INFO - add_keycloak_auth:65 - Call logged for the request: b'' and response: <starlette.middleware.base._StreamingResponse object at 0xffffa3df5550>
+2025-04-25 00:39:43,609 - app - INFO - add_keycloak_auth:65 - Call logged for the request: b'' and response: <starlette.middleware.base._StreamingResponse object at 0xffffa3d53a90>
+2025-04-25 00:39:43,620 - app - INFO - add_keycloak_auth:65 - Call logged for the request: b'' and response: <starlette.middleware.base._StreamingResponse object at 0xffffa3d53310>
+2025-04-25 00:40:01,592 - app - INFO - add_keycloak_auth:65 - Call logged for the request: b'' and response: <starlette.middleware.base._StreamingResponse object at 0xffffa3d53640>
+2025-04-25 00:40:01,655 - app - ERROR - http_exception_handler:27 - 404: Task not found
+2025-04-25 00:40:01,656 - app - INFO - add_keycloak_auth:65 - Call logged for the request: b'' and response: <starlette.middleware.base._StreamingResponse object at 0xffffa1cb4c40>
+2025-04-25 00:40:13,639 - app - INFO - add_keycloak_auth:65 - Call logged for the request: b'' and response: <starlette.middleware.base._StreamingResponse object at 0xffffa1cb4a60>
+2025-04-25 00:42:19,582 - app - ERROR - unhandled_exception_handler:41 - 401: Invalid or expired token
+2025-04-25 00:42:25,875 - app - INFO - add_keycloak_auth:65 - Call logged for the request: b'{\n    "status": "completed"\n}' and response: <starlette.middleware.base._StreamingResponse object at 0xffffa3db5550>
+2025-04-25 00:42:25,884 - app - INFO - add_keycloak_auth:65 - Call logged for the request: b'{\n    "status": "completed"\n}' and response: <starlette.middleware.base._StreamingResponse object at 0xffffa1cb4250>
+2025-04-25 00:42:35,248 - app - INFO - add_keycloak_auth:65 - Call logged for the request: b'{\n    "status": "completed"\n}' and response: <starlette.middleware.base._StreamingResponse object at 0xffffa1cb4bb0>
+2025-04-25 00:42:35,260 - app - INFO - add_keycloak_auth:65 - Call logged for the request: b'{\n    "status": "completed"\n}' and response: <starlette.middleware.base._StreamingResponse object at 0xffffa1c8bb20>
+2025-04-25 00:45:04,425 - app - INFO - add_keycloak_auth:65 - Call logged for the request: b'{\n    "status": "completed"\n}' and response: <starlette.middleware.base._StreamingResponse object at 0xffffb10e75b0>
+2025-04-25 00:45:04,435 - app - INFO - add_keycloak_auth:65 - Call logged for the request: b'{\n    "status": "completed"\n}' and response: <starlette.middleware.base._StreamingResponse object at 0xffffb10e7280>
+2025-04-25 00:46:35,582 - app - INFO - add_keycloak_auth:65 - Call logged for the request: b'{\n    "status": "completed",\n    "title": "adfa",\n    "body":"adf"\n}' and response: <starlette.middleware.base._StreamingResponse object at 0xffffb10d8e80>
+2025-04-25 00:47:02,421 - app - INFO - add_keycloak_auth:65 - Call logged for the request: b'{\n    "status": "completed",\n    "title": "adfa",\n    "body":"adf"\n}' and response: <starlette.middleware.base._StreamingResponse object at 0xffffaf4468e0>
+2025-04-25 00:48:52,767 - app - ERROR - unhandled_exception_handler:41 - 401: Invalid or expired token
+2025-04-25 00:48:58,478 - app - INFO - add_keycloak_auth:65 - Call logged for the request: b'{\n    "status": "completed"\n    \n}' and response: <starlette.middleware.base._StreamingResponse object at 0xffffa1fe18e0>
+2025-04-25 00:49:02,146 - app - ERROR - unhandled_exception_handler:41 - Instance '<Task at 0xffffa0391370>' is not persistent within this Session
+2025-04-25 00:49:22,913 - app - INFO - add_keycloak_auth:65 - Call logged for the request: b'{\n    "status": "completed"\n    \n}' and response: <starlette.middleware.base._StreamingResponse object at 0xffff87d46ac0>
+2025-04-25 00:49:28,621 - app - ERROR - unhandled_exception_handler:41 - Instance '<Task at 0xffff85868610>' is not persistent within this Session
+2025-04-25 00:49:39,815 - app - INFO - add_keycloak_auth:65 - Call logged for the request: b'{\n    "status": "completed",\n    "title": "adfa"\n}' and response: <starlette.middleware.base._StreamingResponse object at 0xffff857c5580>
+2025-04-25 00:49:40,736 - app - ERROR - unhandled_exception_handler:41 - Instance '<Task at 0xffff87d37df0>' is not persistent within this Session
+2025-04-25 00:50:46,059 - app - INFO - add_keycloak_auth:65 - Call logged for the request: b'{\n    "status": "completed",\n    "title": "adfa"\n}' and response: <starlette.middleware.base._StreamingResponse object at 0xffffaff66ac0>
+2025-04-25 00:50:48,821 - app - INFO - add_keycloak_auth:65 - Call logged for the request: b'{\n    "status": "completed",\n    "title": "adfa"\n}' and response: <starlette.middleware.base._StreamingResponse object at 0xffffae2fec40>
+2025-04-25 00:50:58,776 - app - INFO - add_keycloak_auth:65 - Call logged for the request: b'{\n    "status": "completed"\n    \n}' and response: <starlette.middleware.base._StreamingResponse object at 0xffffaff00550>
+2025-04-25 00:51:00,869 - app - ERROR - unhandled_exception_handler:41 - Instance '<Task at 0xffffaffc9ac0>' is not persistent within this Session
+2025-04-25 00:53:54,855 - app - ERROR - unhandled_exception_handler:41 - 401: Invalid or expired token
+2025-04-25 00:54:01,258 - app - INFO - add_keycloak_auth:65 - Call logged for the request: b'{\n    "status": "completed"\n    \n}' and response: <starlette.middleware.base._StreamingResponse object at 0xffffaa8db070>
+2025-04-25 00:54:11,631 - app - INFO - add_keycloak_auth:65 - Call logged for the request: b'{\n    "status": "completed"\n    \n}' and response: <starlette.middleware.base._StreamingResponse object at 0xffffa8c235e0>
