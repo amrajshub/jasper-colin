@@ -22,7 +22,7 @@ Logging (to file and Graylog), monitoring, and pre-commit for code consistency.
 
 
 📊 Application Architecture
-![Diagram:](jasper-colin/app_arch.png)
+![Diagram:](app_arch.png)
 
 
 Tasks Table:
