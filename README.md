@@ -104,7 +104,6 @@ Tokens validated via FastAPI dependency that decodes and checks scopes/roles.
 +-------------+
 
 
-
 🌐 Caching Strategy
 Tool: Redis
 
