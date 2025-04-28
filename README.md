@@ -79,8 +79,6 @@ Role-based access enforced at route level (e.g., admin, user).
 
 Tokens validated via FastAPI dependency that decodes and checks scopes/roles.
 
-
-
                +---------------------------+
                |       Users / Clients      |
                +------------+---------------+
@@ -91,19 +89,20 @@ Tokens validated via FastAPI dependency that decodes and checks scopes/roles.
                | (Keycloak, RBAC, Caching)   |                        |
                +------------+---------------+                        |
                             |                                        |
-       +--------------------+---------------------+                |
-       |                    |                     |                |
-       v                    v                     v                |
- +-------------+     +---------------+     +----------------+      |
- | PostgreSQL  |     | Redis (cache)  |     | Celery Worker  |      |
- | (Main DB)   |     +---------------+     +----------------+      |
- +-------------+                                            |      |
-        ^                                                   |      |
-        |                                                   v      |
- +-------------+                                  +----------------+
- | Alembic     |                                  | Redis (broker)  |
- | (Migrations)|                                  +----------------+
- +-------------+
+    +-----------------------+-----------------------+              |
+    |                       |                       |              |
+    v                       v                       v              |
++-------------+      +---------------+       +----------------+    |
+| PostgreSQL  |      | Redis (cache)  |       | Celery Worker  |    |
+| (Main DB)   |      +---------------+       +----------------+    |
++-------------+                                             |        |
+        ^                                                   |        |
+        |                                                   v        |
++-------------+                                   +------------------+
+| Alembic     |                                   | Redis (broker)    |
+| (Migrations)|                                   +------------------+
++-------------+
+
 
 
 🌐 Caching Strategy
